@@ -193,9 +193,9 @@ async def status_pages(_, query):
 <b>CM:</b> {tasks["ConvertMedia"]} | <b>FF:</b> {tasks["FFmpeg"]} | <b>MD:</b> {tasks["Metadata"]} | <b>WM:</b> {tasks["Watermark"]}
 <b>ET:</b> {tasks["EmbedThumb"]} | <b>YT:</b> {tasks["YtUp"]}
 
-<b>ODLS:</b> {get_readable_file_size(dl_speed)}/s
-<b>OULS:</b> {get_readable_file_size(up_speed)}/s
-<b>OSDS:</b> {get_readable_file_size(seed_speed)}/s
+<b>DL SPD:</b> {get_readable_file_size(dl_speed)}/s
+<b>OL SPD:</b> {get_readable_file_size(up_speed)}/s
+<b>SEED SPD:</b> {get_readable_file_size(seed_speed)}/s
 """
         button = ButtonMaker()
         button.data_button("Back", f"status {data[1]} ref")

@@ -106,7 +106,7 @@ class YouTubeUpload(YouTubeHelper):
                 "snippet": {
                     "title": playlist_name,
                     "description": f"Playlist created from folder: {playlist_name}",
-                    "tags": ["mirror-leech-bot", "playlist-upload"],
+                    "tags": ["Aman-leech-bot", "playlist-upload"],
                 },
                 "status": {"privacyStatus": "private"},
             }
@@ -530,7 +530,7 @@ class YouTubeUpload(YouTubeHelper):
         description = f"{description_base}\n\nOriginal filename: {file_name}"
         tags_for_body = self.tags
         if tags_for_body is None:
-            tags_for_body = ["mirror-leech-bot", "telegram-bot", "upload"]
+            tags_for_body = ["Aman-leech-bot", "telegram-bot", "upload"]
 
         body = {
             "snippet": {

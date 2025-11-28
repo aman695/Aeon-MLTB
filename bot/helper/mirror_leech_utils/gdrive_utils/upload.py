@@ -156,7 +156,7 @@ class GoogleDriveUpload(GoogleDriveHelper):
     ):
         file_metadata = {
             "name": file_name,
-            "description": "Uploaded by Mirror-leech-telegram-bot",
+            "description": "Uploaded by Aman-leech-bot",
             "mimeType": mime_type,
         }
         if dest_id is not None:

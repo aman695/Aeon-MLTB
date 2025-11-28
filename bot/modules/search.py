@@ -106,7 +106,7 @@ async def get_result(search_results, key, message):
     path = [
         (
             await telegraph.create_page(
-                title="Mirror-leech-bot Torrent Search",
+                title="Aman-leech-bot Torrent Search",
                 content=content,
             )
         )["path"]
