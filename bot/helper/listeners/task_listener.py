@@ -446,7 +446,7 @@ class TaskListener(TaskConfig):
         ):
             await database.rm_complete_task(self.message.link)
         msg = f"<b>Name: </b><code>{escape(self.name)}</code>\n\n<b>Size: </b>{get_readable_file_size(self.size)}"
-        done_msg = f"{self.tag}\nYour task is complete\nPlease check your inbox."
+        done_msg = f"{self.tag}\nʏᴏᴜʀ ᴛᴀꜱᴋ ɪꜱ ᴄᴏᴍᴘʟᴇᴛᴇ\nᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ɪɴʙᴏx."
         LOGGER.info(f"Task Done: {self.name}")
 
         upload_service = (
